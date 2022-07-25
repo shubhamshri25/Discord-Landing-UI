@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Ginto Nord";
+  src: local("Ginto Nord"),
+    url("./fonts/Ginto\ Nord\ Regular.woff2.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@layer components {
+  .primary {
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  }
+
+  .display {
+    font-family: "Ginto Normal", "Whitney", "Helvetica Neue", "Helvetica",
+      "Arial", sans-serif;
+  }
+
+  .headline {
+    font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial",
+      sans-serif;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
