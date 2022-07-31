@@ -1,0 +1,5 @@
+tabs: ['src/App.js','README.md']
+live-reload-browser: false
+terminal-one: |
+    npm install
+    npm run start

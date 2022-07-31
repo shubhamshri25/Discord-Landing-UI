@@ -10,7 +10,7 @@ import DiscordLogo from "../assets/discord_main_logo.svg";
 function FooterNavItem(prop) {
   return (
     <li>
-      <a href="/" className="hover:underline hover:decoration-white">
+      <a href="#" className="hover:underline hover:decoration-white">
         {prop.name}
       </a>
     </li>
